@@ -6,5 +6,5 @@
     /* text-overflow: ellipsis; */
     overflow-x: hidden;
     overflow-y: scroll;
-    overflow:  hidden auto;
+    overflow:  hidden scroll;
 }
