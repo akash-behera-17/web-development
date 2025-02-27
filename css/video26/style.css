@@ -1,0 +1,10 @@
+.box{
+    border: 2px solid rebeccapurple;
+    width: 12vw;
+    height: 40vh;
+    /* overflow: auto; */
+    /* text-overflow: ellipsis; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow:  hidden auto;
+}
