@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*element selector*/
+        div{
+            color: red;
+        }
+        /* CLASS SELECTOR */
+        .AQUA{
+            background-color: aqua;
+        }
+        /* id selector */
+        #beige{
+            background-color: beige;
+        }
+        /* child selector */
+        div > p {
+            color: blue;
+            background-color: goldenrod;
+        }
+        /* decedent selector */
+        div  p {
+            color: blue;
+            background-color: goldenrod;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 12%;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: yellowgreen;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="AQUA">
+        here is a LEO...
+        <p>akash</p>
+    </div>
+    <div id="beige">
+        here is a scorpio...
+        <article>
+            <p>subhashree</p>
+        </article>
+
+        
+    </div>
+    <a href="https://www.google.com">GOOGLE</a>
+</body>
+</html>

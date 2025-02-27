@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            background-color: aquamarine;
+            margin: auto;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            font-size: 18px;
+            width: 80vw;
+            height: 80vh;
+            background-color: aquamarine;
+            margin: 23px auto;
+        }
+
+        .container>div {
+            font-size: 2rem;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container>div>div {
+
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .mycont {
+            background-color: red;
+            color: yellow;
+            width: 100vh;
+            width: 100vmin;
+            width: 100vw;
+            width: 100vmax;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        i am a box
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur facilis quam vero sed hic aperiam
+            nulla quae.
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt animi laudantium ea debitis sint.
+                Illum, soluta consequuntur atque suscipit ex dolore laborum explicabo.
+            </div>
+        </div>
+    </div>
+    <div class="mycont">
+        i am a container
+    </div>
+</body>
+
+</html>
