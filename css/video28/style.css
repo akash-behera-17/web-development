@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 4px;
+    border: 2px solid rebeccapurple;
+}
+
+.box1 {
+    background-color: antiquewhite;
+    /* position: relative; */
+    position: absolute;
+    top: 0px;
+    /* z-index: 1; */
+}
+
+.box2 {
+    background-color: aqua;
+    position: relative;
+    top: -64px;
+    left: 104px;
+}
+
+.box3 {
+    background-color: aquamarine;
+    position: fixed;
+    left: 0px;
+}
+
+.box4 {
+    background-color: aliceblue;
+    position: sticky;
+}
+.parent{
+    position:absolute;
+    padding: 45px;
+    margin: 12px;
+    border: 4px solid red;
+}
